@@ -1,0 +1,92 @@
+body{
+  padding-bottom: 30px;
+}
+.header-container{
+    display: flex;
+  justify-content: flex-end;
+    
+  }
+  .add-todo{
+    flex: 4;
+    max-width: 900px;
+    height: 30px;
+    font-size:16px;
+    border: 1px solid black;
+    margin-right: 20px;
+    padding-left:10px;
+  }
+.add-todo::placeholder{
+  font-family: 'Oswald', sans-serif;
+  font-size: 16px;
+}
+  
+  .add-button{
+    flex: 0.7;
+    color: white;
+    background-color: blue;
+    padding:8px 20px;
+    max-width: 60px;
+    margin-right: 8px;
+    border: none;
+  }
+  .clear-button{
+    flex: 1;
+    color: white;
+    background-color: blue;
+    padding:8px 20px;
+    max-width: 100px;
+    border: none;
+  }
+  .add-button:hover{
+    opacity: 0.3;
+  }
+  .clear-button:hover{
+    opacity: 0.3;
+  }
+  .header{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+  }
+  .todo-list :nth-child(1){
+    border-top: 2px solid black;
+  }
+  .list1{
+    background-color: #e0e0e0;
+    display:flex;
+    justify-content: space-between;
+    margin-top:0px;
+    border-bottom: 2px solid black;
+  }
+  .list1:hover{
+    background-color: #808080;
+  }
+  .check{
+    width: 20px;
+  }
+  .task{
+  flex: 1;
+  color: black;
+  font-family: 'Oswald', sans-serif;
+  font-size: 17px;
+  text-align: center;
+   
+  }
+  .remove-button{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    width: 100px;
+    color: white;
+    background-color:black;
+    font-family: Arial, Helvetica, sans-serif;
+    border: none;
+    font-weight: bold;
+    
+  }
+  .remove-button:hover{
+    opacity: 0.5;
+  }
+ 
